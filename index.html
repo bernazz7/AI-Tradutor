@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Tradutor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🌎 Meu Tradutor IA</h1>
+
+    <div class="tradutor">
+
+        <div class="caixa">
+
+            <p>Idioma de origem:</p>
+
+            <select id="idiomaOrigem">
+                <option value="pt">Português</option>
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+                <option value="fr">Francês</option>
+                <option value="de">Alemão</option>
+                <option value="it">Italiano</option>
+            </select>
+
+            <textarea id="texto" placeholder="Digite uma frase ou palavra..."></textarea>
+
+        </div>
+
+
+        <div class="troca">
+
+            <button id="trocarIdiomas">🔄</button>
+
+        </div>
+
+
+        <div class="caixa">
+
+            <p>Traduzir para:</p>
+
+            <select id="idiomaDestino">
+                <option value="en">Inglês</option>
+                <option value="pt">Português</option>
+                <option value="es">Espanhol</option>
+                <option value="fr">Francês</option>
+                <option value="de">Alemão</option>
+                <option value="it">Italiano</option>
+            </select>
+
+            <div id="resultado">
+                A tradução aparecerá aqui.
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <button id="botaoTraduzir">🌎 Traduzir</button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

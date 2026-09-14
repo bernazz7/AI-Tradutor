@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 40px;
+}
+
+
+/* Título */
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+
+/* Área do tradutor */
+
+.tradutor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* Cada caixa */
+
+.caixa {
+    width: 40%;
+}
+
+
+/* Textos */
+
+.caixa p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* Seleção de idioma */
+
+select {
+    width: 100%;
+    padding: 12px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    background-color: white;
+
+    margin-bottom: 15px;
+}
+
+
+/* Área de texto */
+
+textarea {
+    width: 100%;
+    height: 200px;
+
+    box-sizing: border-box;
+
+    padding: 15px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    resize: vertical;
+}
+
+
+/* Resultado */
+
+#resultado {
+    width: 100%;
+    height: 170px;
+
+    box-sizing: border-box;
+
+    padding: 15px;
+
+    background-color: white;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    font-size: 18px;
+}
+
+
+/* Botão de trocar idiomas */
+
+#trocarIdiomas {
+    width: 45px;
+    height: 45px;
+
+    padding: 0;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #ddd;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+
+/* Efeito do botão de troca */
+
+#trocarIdiomas:hover {
+    background-color: #ccc;
+}
+
+
+/* Botão traduzir */
+
+#botaoTraduzir {
+    display: block;
+
+    margin: 30px auto 0;
+
+    padding: 13px 30px;
+
+    font-size: 16px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #2563eb;
+    color: white;
+
+    cursor: pointer;
+}
+
+
+/* Efeito do botão traduzir */
+
+#botaoTraduzir:hover {
+    background-color: #1d4ed8;
+}
